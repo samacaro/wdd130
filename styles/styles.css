@@ -1,14 +1,23 @@
 nav {
-    background-color: steelblue;
+    background-color: #d0f1d0;
     padding: 10px;
+    box-shadow: 0 0 30px #5f845f;
 }
 nav a {
-color: white;
-display: block;
-padding: 20px;
+color: green;
+display: inline;
+padding: 5px;
+}
+main img{
+    width: 400px;
+    height: auto;
+    border: 1px solid grey;
+    box-shadow: 0 0 50px grey;
+    padding: 2px;
 }
 h1 {
-    color: steelblue;
+    color: green;
+    text-align: center;
 }
 img {
     width: 150px;
@@ -18,5 +27,29 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 8px;
+    color: green;
+}
+aside {
+    width: 20em;
+    margin: 1em;
+    padding: 1em;
+    border: 1px grey;
+    box-shadow: 0 0 30px grey;
+    background-color: whitesmoke;
+    text-align: center;
+    color: #5f845f;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px grey;
+    box-shadow: 0 0 20px grey;
+    padding: 0;
+}
+footer{
+    margin-top: 1em;
+    border-top: 1px solid green;
+    text-align: right;
+    color: green;
 }
