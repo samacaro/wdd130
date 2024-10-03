@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 main {
-    max-width: 700px;
+    
 }
 img {
     width: 150px;
@@ -23,6 +23,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 main img{
+    max-width: 700px;
     width: 400px;
     height: auto;
     border: 1px solid grey;
