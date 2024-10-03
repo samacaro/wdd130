@@ -12,6 +12,13 @@ h1 {
     color: green;
     text-align: center;
 }
+main {
+    width: 400px;
+    height: auto;
+    border: 1px solid grey;
+    box-shadow: 0 0 50px grey;
+    padding: 2px;
+}
 img {
     width: 150px;
     height: auto;
@@ -20,7 +27,6 @@ img {
     box-shadow: 0 0 30px gray;
 }
 main img{
-    max-width: 600px;
     width: 400px;
     height: auto;
     border: 1px solid grey;
