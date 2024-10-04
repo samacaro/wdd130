@@ -51,6 +51,14 @@ aside img {
     box-shadow: 0 0 20px grey;
     padding: 0;
 }
+:root{
+    --boarder: 1px solid rgba (0,0,0,0.1);
+    --padding: 1rem;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --heading-background-color: rgb(208, 0, 255);
+    --heading-text-color: rgb(255, 0, 238);
+}
+
 footer{
     margin-top: 1em;
     border-top: 1px solid green;
