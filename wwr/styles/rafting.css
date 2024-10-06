@@ -54,7 +54,7 @@ article img{
     .hero img{ width: 100%;}
 
 h1 {
-    color: green;
+    color: #315E5B;
     text-align: center;
     position: absolute;
     font-size: 1000%;
@@ -67,15 +67,17 @@ h1 {
 section img{
 width: auto;
 height: 400px;
-align-items: center;
+align-self: center;
 }
 
 footer{
+    width: 1600px;
     margin-top: 1em;
     border-top: 1px solid #006400;
     text-align: center;
     background-color: #FAFDEA;
     color: #006400;
+    font-family: 'Ubuntu','Rubik',serif;
 }
 
 footer img{
@@ -84,9 +86,31 @@ footer img{
     background-color: #FAFDEA;
     margin: 0;
 }
+
+h2 {
+    color: #315E5B;
+    font-size: 75px;
+    font-family:'Roboto', 'Ubuntu', sans-serif; 
+    text-align: center;
+}
+p {
+    color: #89BDA5;
+    font-size: 40px;
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    text-align: justify;
+}
 :root{
     --background-color: #FAFDEA;
     --heading-background-color: #FAFDEA;
+    --heading-text-color: #315E5B ;
+    --heading-font-family: 'Roboto', 'Rubik', sans-serif;
+    --body-text: 'Ubuntu', 'Afacad Flux', sans-serif;
+    --base-font-size: 40px;
+    --h1-color: #315E5B;
+    --h2-color: #89BDA5;
+    --h3-color:#4A4D59;
+    --padding: 1rem;
+    --width: 30px;
 }
 
 body {
