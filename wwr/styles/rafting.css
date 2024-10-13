@@ -165,9 +165,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     gap:10px;
-    padding: #fafdea;
-    margin: #FAFDEA;
-    background-color: #FAFDEA;
 }
 
 footer img{
