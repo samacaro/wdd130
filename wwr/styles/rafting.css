@@ -111,7 +111,7 @@ p {
     text-align: justify;
 }
 
-p1 {
+p {
     color: #89BDA5;
     font-size: 40px;
     font-family: 'Ubuntu', 'Roboto', sans-serif;
@@ -180,7 +180,7 @@ footer img{
     padding: #fafdea;
 }
 
-p3 {
+p {
     color: #89BDA5;
     display: flex;
     font-size: 50px;
