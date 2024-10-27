@@ -1,3 +1,30 @@
+:root{
+    --background-color: #FAFDEA;
+    --heading-background-color: #FAFDEA;
+    --heading-text-color: #315E5B ;
+    --heading-font-family: 'Roboto', 'Rubik', sans-serif;
+    --body-text: 'Ubuntu', 'Afacad Flux', sans-serif;
+    --base-font-size: 40px;
+    --h1-color: #315E5B;
+    --h2-color: #89BDA5;
+    --h3-color:#4A4D59;
+    --padding: 1rem;
+    --width: 30px;
+    --footer-color: #fafdea;
+    --padding-color: #FAFDEA;
+}
+
+body {
+    max-width: 1850px;
+    margin: 0 auto; 
+    background-color: #FAFDEA;
+  }
+
+
+
+
+
+/*  Header */
 header{
     display: grid;
     grid-template-columns: 0.5fr 2fr;
@@ -18,7 +45,12 @@ header nav{
     width: 100%;
     height: 90px;
 }
+/*  Header */
 
+
+
+
+/*  About us */
 nav {
     background-color: #006400;
     padding: 0;
@@ -140,65 +172,12 @@ figcaption{
     font-family: 'Ubuntu', 'Roboto', sans-serif;
     text-align: center;
 }
+/*  About us */
 
 
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1850px;
-    margin-top: 1em;
-    border-top: 1px solid #006400;
-    background-color: #FAFDEA;
-    font-family: 'Ubuntu','Rubik',serif;    
-}
 
-.sociallinks{
-    display: flex;
-    flex-wrap: wrap;
-    gap:10px;
-    background-color: #FAFDEA;
-}
 
-footer img{
-    width: 100px;
-    height: auto;
-    background-color: #FAFDEA;
-    color: #FAFDEA;
-    align-self: flex-end;
-    justify-self: center;
-}
 
-p {
-    color: #89BDA5;
-    display: flex;
-    font-size: 50px;
-    font-family: 'Ubuntu', 'Roboto', sans-serif;
-    align-self: center;
-    justify-self: center;
-}
-
-:root{
-    --background-color: #FAFDEA;
-    --heading-background-color: #FAFDEA;
-    --heading-text-color: #315E5B ;
-    --heading-font-family: 'Roboto', 'Rubik', sans-serif;
-    --body-text: 'Ubuntu', 'Afacad Flux', sans-serif;
-    --base-font-size: 40px;
-    --h1-color: #315E5B;
-    --h2-color: #89BDA5;
-    --h3-color:#4A4D59;
-    --padding: 1rem;
-    --width: 30px;
-    --footer-color: #fafdea;
-    --padding-color: #FAFDEA;
-}
-
-body {
-    max-width: 1850px;
-    margin: 0 auto; 
-    background-color: #FAFDEA;
-  }
 
   /*  Contact Us page */
 
@@ -314,3 +293,94 @@ input, textarea {
 }
 
 /*  Contact Us page */
+
+
+
+
+
+/*  Trips */
+
+.hero {
+  width: 100%;
+  height: 300px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
+
+.hero h1{
+    position: absolute;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.highlight img {
+  width: 150px;
+  height: 150px;
+  background-color: #e0e0e0;
+  margin-right: 20px;
+}
+
+.highlight .description {
+  flex: 1;
+}
+
+.highlight .cta {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.details {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+  margin: 
+}
+/*  Trips */
+
+
+
+
+/*  Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1850px;
+    margin-top: 1em;
+    border-top: 1px solid #006400;
+    background-color: #FAFDEA;
+    font-family: 'Ubuntu','Rubik',serif;    
+}
+
+.sociallinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    background-color: #FAFDEA;
+}
+
+footer img{
+    width: 100px;
+    height: auto;
+    background-color: #FAFDEA;
+    color: #FAFDEA;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+p {
+    color: #89BDA5;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Ubuntu', 'Roboto', sans-serif;
+    align-self: center;
+    justify-self: center;
+}
+/*  Footer */
